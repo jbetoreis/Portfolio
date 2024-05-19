@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+}
+
+#main .main-header {
+  width: 25%;
+  height: 100vh;
+  max-height: 100vh;
+  background-color: rgb(16, 16, 16);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+#main .main-header .main-header-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 0 2rem 0;
+  row-gap: 1rem;
+}
+
+#main .main-header .main-header-info .main-header-info-foto {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+#main .main-header .main-header-info .main-header-info-desc {
+  color: rgb(200, 200, 200);
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#main .main-header .main-header-info span {
+  color: rgb(180, 180, 180) !important;
+  font-size: 12px;
+}
+
+#main .main-header .main-header-menu .main-header-menu-nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 1rem;
+  list-style: none;
+  padding: 0 5rem 0 0;
+}
+
+#main .main-header .main-header-menu .main-header-menu-nav ul li a {
+  text-decoration: none;
+  color: rgb(180, 180, 180);
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#main .main-header .main-header-menu .main-header-menu-nav ul li .active {
+  color: white;
+}
+
+#main .main-header .main-header-menu .main-header-menu-nav ul li a:hover {
+  color: white;
+}
+
+#main .main-header .main-header-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem 0 1rem 0;
+}
+
+#main .main-header .main-header-footer .main-header-footer-social ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  column-gap: 1.5rem;
+}
+
+#main .main-header .main-header-footer .main-header-footer-terms span {
+  color: rgb(180, 180, 180);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 13px;
+}
+
+#main .main-header .main-header-footer .main-header-footer-social .main-header-footer-social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+#main .main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 3rem;
+  width: 75%;
+}
+
+#main .main-content .main-content-foto {
+  height: 350px;
+  width: auto;
+  border-radius: 10% 30% 10% 30%;
+}
+
+#main .main-content .main-content-about {
+  min-height: 350px;
+  max-width: 35%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+#main .main-content .main-content-about h2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(56, 54, 67)
+}
+
+#main .main-content .main-content-about p {
+  color: rgb(70, 70, 70);
+  text-align: justify;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+#main .formacao-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  row-gap: 2rem;
+  padding: 5rem 0;
+  width: 75%;
+  overflow-y: auto;
+}
+
+#main .formacao-content .formacao-content-item {
+  width: 80%;
+  padding: 1rem 2rem;
+  background-color: rgb(240, 240, 240);
+  box-shadow: 1px 1px 2px rgb(232, 232, 232);
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  border-radius: 10px;
+}
+
+#main .formacao-content .formacao-content-item img {
+  border-radius: 10%;
+}
+
+#main .formacao-content .formacao-content-item .formacao-content-item-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  margin-top: 0.5rem;
+}
+
+#main .formacao-content .formacao-content-item .formacao-content-item-info h3 {
+  color: rgb(60, 60, 60);
+  margin: 0;
+}
+
+#main .formacao-content .formacao-content-item .formacao-content-item-info p {
+  color: rgb(80, 80, 80);
+  margin: 0;
+  font-size: 15px;
+}
+
+#main .formacao-content .formacao-content-item .formacao-content-item-info span {
+  color: rgb(120, 120, 120);
+  font-size: 12px;
+}
+
+#main .portfolio-content {
+  width: 75%;
+  margin: 5rem 2rem;
+  overflow-y: auto;
+}
+
+#main .portfolio-content .portfolio-content-item {
+  display: inline-block;
+  width: 23%;
+  padding: 1rem 2rem;
+  margin: 1rem 1rem;
+  background-color: rgb(240, 240, 240);
+  box-shadow: 1px 1px 2px rgb(232, 232, 232);
+  border-radius: 10px;
+}
+
+#main .portfolio-content .portfolio-content-item .portfolio-content-item-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#main .portfolio-content .portfolio-content-item .portfolio-content-item-info img {
+  height: 150px;
+  border-radius: 10px;
+}
+
+#main .contact-content {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#main .contact-content form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
